@@ -20,11 +20,23 @@ Follows a clean MVC architecture with a dedicated service layer for validation a
 ## 🧱 Project Structure
 
 minicrud/
-├── models/ # Mongoose Schema (empModel.js)
-├── controllers/ # Handles HTTP requests (empController.js)
-├── services/ # Business logic and validations (empService.js)
-├── routes/ # API route definitions (empRoutes.js)
-├── config/ # MongoDB connection setup (database.js)
-├── app.js # Main Express app entry
-├── .env # Environment variables
-└── package.json
+│
+├── models/           # 🧬 Mongoose Schema (empModel.js)
+│   └── empModel.js
+│
+├── controllers/      # 🧭 Handles HTTP requests (empController.js)
+│   └── empController.js
+│
+├── services/         # 🧠 Business logic and validations (empService.js)
+│   └── empService.js
+│
+├── routes/           # 🌐 API route definitions (empRoutes.js)
+│   └── empRoutes.js
+│
+├── config/           # ⚙️ MongoDB connection setup (database.js)
+│   └── database.js
+│
+├── .env              # 🔐 Environment variables
+├── app.js            # 🚀 Main Express app entry
+└── package.json      # 📦 Project metadata & dependencies
+
